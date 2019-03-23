@@ -1,0 +1,100 @@
+.jumbotron{
+    background-image: url("/hello-world/src/assets/images/car-pic3.jpg");
+    
+}
+h1{
+    font-size: 35px;
+        color: #F84C61;
+        letter-spacing: 0.02em;
+        font-family: 35px Lato, sans-serif;
+        margin-top: 1%;
+}
+.form-group {
+    margin-top: 2%;
+}
+.form-group input {
+    display: inherit;
+    padding: 4px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 40%;
+    border-width: 1px;
+    border-style: double;
+    border-color: #818181;
+}
+label {
+    display: inherit;
+    color: #818181;
+}
+a:hover {
+    color: #F84C61;
+    text-decoration: none;
+}
+input#submit {
+    padding: 6px 12px;
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 43%;
+    background-color: #DD0031;
+    border-color: #DD0031;
+}
+input.btn.btn-primary{
+    padding: 6px 12px;
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 43%;
+}
+.bottom-button{
+    display: grid;
+}
+
+aside h1{
+    color: #DD0031;
+    float: right;
+    position: absolute;
+    top: 24%;
+    /* right: 25%; */
+    left: 51%;
+}
+aside ul {
+    color: #8E8E8E;
+    float: right;
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    list-style-type: none;
+}
+aside ul li::before{
+    content: '✓';
+    margin-right: 6px;
+    color: black;
+}
+
+.bottom-heading {
+    background-color: #3C3C3C;
+    padding: 10px;
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    margin-top: 6%;
+}
+.form-inline {
+    float: right;
+}
+button.btn.btn-outline-success {
+    border-color: #DD0031;
+    color: #8E8E8E;
+    margin-left: 17px;
+}
+.btn-outline-success:hover {
+    color: #8E8E8E;
+    background-color: #DD0031;
+}
+.form-inline span{
+        font: 19px Lato,sans-serif;
+        color: #fff;
+        /* margin-left: 15%; */
+} 
+input.form-control.mr-sm-2 {
+    margin-left: 150px;
+}
