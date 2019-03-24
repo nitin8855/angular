@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { JambotronComponent } from './jambotron/jambotron.component';
 import { FooterComponent } from './footer/footer.component';
 import { MasterPageComponent } from './master-page/master-page.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -15,7 +16,8 @@ import { MasterPageComponent } from './master-page/master-page.component';
     NavbarComponent,
     JambotronComponent,
     FooterComponent,
-    MasterPageComponent
+    MasterPageComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
